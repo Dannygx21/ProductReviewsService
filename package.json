@@ -4,6 +4,7 @@
   "description": "Version 2 of a product review API. This version cleans up code and optimizes queries. Local Testing, deployment, and deployment testing is also in the scope of this application and is documented.",
   "main": "index.js",
   "scripts": {
+    "start-dev": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/Dannygx21/ProductReviewsService#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
